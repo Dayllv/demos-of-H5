@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <style>
+        body,h3,ul,p{margin: 0;padding: 0;}
+        ul{list-style: none;}
+        a{text-decoration: none;display:inline-block;}
+        img{border:none;vertical-align: middle;}
+        
+        .box{width:640px;margin: 30px auto;border:1px solid black;background: #E8E8E8;font-family:"微软雅黑";}
+        header{font-size:24px;background:#38474F;display: flex;align-items: center;flex-direction: column;}
+        header h3{font-size:24px;line-height:88px;margin-bottom:6px;flex: 1;}
+        header .link{display: flex;flex: 1; width:590px;margin-bottom:15px;justify-content:space-between;}
+        header .link a{width:285px;height:63px;text-align: center;line-height:63px;color:white;background:#2D3A40;}
+        
+        main{display: flex;flex-direction: column;align-items: center;}
+        
+        .part1{background:white;margin-top:25px;border-radius: 4px;box-shadow: -2px -2px 5px #B9B9B9,2px 2px 5px #B9B9B9;overflow: hidden;width:590px;position: relative;height:590px;}
+        .part1 ul{width:1770px;display: flex;position: absolute;left: 0;top: 0;}
+        .part1 li .pic{width: 590px;height: 472px;}
+        .part1 img{width: 590px;height: 472px;}
+        .part1 li{display: flex;flex-direction: column;align-items: center;width:590px;flex: 1;}
+        .price{font-size:20px;line-height:67px;display: flex;justify-content: space-between;width:525px;margin:25px 0;}
+        .price span{color:black;font-weight: bold;}
+        .price a{color:white;text-align: center;background:#BFBFC4;width:144px;border-radius: 4px;}
+        
+        .part2{width:480px;line-height:100px;font-size:22px;background:url(assets/bg1.png) no-repeat 25px center white;padding-left:110px;margin-top:20px;border-radius: 4px;box-shadow: -2px -2px 5px #B9B9B9,2px 2px 5px #B9B9B9;}
+        
+        .part3{display: flex;flex-direction: column;align-items: center;background:white;padding:0 68px;border-radius: 4px;box-shadow: -2px -2px 5px #B9B9B9,2px 2px 5px #B9B9B9;margin-top:37px;margin-bottom:60px;}
+        .part3 .up h3{font-size:22px;line-height:88px;background:url(assets/bg2.png) no-repeat 45px center;text-align: center;}
+        .up{width:238px;}
+        .up p{color:#ABABB2;font-size: 20px;line-height: 20px;}
+        .items{display: flex;justify-content: space-between;margin-top:30px;margin-bottom:43px;}
+        .items a{width: 72px;height: 72px;background: url(assets/bg3.png) no-repeat center center;}
+        
+        .part3 .down{width:454px;border-top:1px solid grey;}
+        .part3 .down h3{font-size:22px;line-height:88px;background:url(assets/bg4.png) no-repeat 150px center;text-align: center;}
+        .down p{color:#ABABB2;font-size: 20px;line-height: 20px;text-align: center;}
+        .items2{display: flex;justify-content: space-between;margin-top:30px;margin-bottom:43px;}
+        .items2 a{width: 72px;height: 72px;background: url(assets/bg3.png) no-repeat center center;}
+        
+        .more{width:277px;height:60px;font-size:18px;line-height:60px;text-align: center;background:#394143;color:white;border-radius: 4px;box-shadow: -2px -2px 5px #B9B9B9,2px 2px 5px #B9B9B9;margin-bottom:80px;}
+        
+        footer{border-top:1px solid grey;margin:0 25px 55px 25px;position: relative;}
+        footer h3{font-size:32px;line-height:32px;position: absolute;left: 0;top: -17px;background: #E7E7E7;padding-right:15px;}
+        .nav{display: flex;justify-content: space-between;margin-top:50px;}
+        .nav a{width:170px;height:78px;background:url(assets/bg5.png) no-repeat left center;position: relative;}
+        .nav i{position: absolute;right: 10px;top: 20px;width:75px;height:45px;background:url(assets/bg6.png) no-repeat center center;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <h3>Woman, Dresses</h3>
+            <div class="link">
+                <a href="#">add to wishlist</a>
+                <a href="#">add to cart</a>
+            </div>
+        </header>
+        <main>
+            <div class="part1">
+                <ul>
+                    <li>
+                        <a class="pic" href="">
+                            <img src="assets/2.jpg" alt="">
+                        </a>
+                        <div class="price">
+                            <span>Elegant Pink Dresses</span>
+                            <a href="">$605,00</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="pic" href="">
+                            <img src="assets/2.jpg" alt="">
+                        </a>
+                        <div class="price">
+                            <span>Elegant Pink Dresses</span>
+                            <a href="">$605,00</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="pic" href="">
+                            <img src="assets/2.jpg" alt="">
+                        </a>
+                        <div class="price">
+                            <span>Elegant Pink Dresses</span>
+                            <a href="">$605,00</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="part2">Description</div>
+            <div class="part3">
+                <div class="up">
+                    <h3>Color:</h3>
+                    <p>Choose a colour for item</p>
+                    <div class="items">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="down">
+                    <h3>Size:</h3>
+                    <p>Size available for this item</p>
+                    <div class="items2">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+             <div class="more">Add to Cart</div>
+        </main>
+        <footer>
+            <h3>SHARE ON</h3>
+            <div class="nav">
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

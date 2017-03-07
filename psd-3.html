@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <style>
+        body,p,h3,ul{padding: 0;margin: 0;}
+        ul{list-style: none;}
+        a{text-decoration: none;display: inline-block;}
+        i,em{font-style: normal;display: inline-block;}
+        
+        .box{width:640px;margin: 30px auto;display: flex;flex-direction: column;align-items: center;font-family: "微软雅黑";background: #F7F7F7;}
+        header{display: flex;justify-content: space-between;background: #1F93D3;width:100%;align-items: center;}
+        header .user{height:50px;width:50px;background: url(assets/bg3-1.png) no-repeat center center;margin-left:15px;}
+        header .more{height:50px;width:50px;background: url(assets/bg3-3.png) no-repeat center center;margin-right:15px;}
+        header h3{background: url(assets/bg3-2.png) no-repeat right center;color:white;font-size:34px;line-height:94px;padding-right:35px;}
+    
+        main{width:610px;}
+        main ul{}
+        main li{width:610px;display: flex;justify-content: center;background: #FFFFFF;margin:10px 0;border-radius: 5px;box-shadow: 2px 2px 2px #E1E1E1;}
+        main .st{width:580px;}
+        main li a{width:580px;height:260px;position: relative;margin-top:15px;}
+        main li a i{position: absolute;right: 100px;top: 5px;height:28px;width:85px;background:rgba(0,0,0,.4);text-align: center;font-size:12px;line-height:28px;color: whitesmoke;border-radius: 5px;}
+        main li a em{position: absolute;right: 10px;top: 5px;height:28px;width:85px;background:rgba(0,0,0,.4);text-align: center;font-size:12px;line-height:28px;color: whitesmoke;border-radius: 5px;}
+        main li h3{font-size:26px;line-height:60px;}
+        main .pro{display: flex;justify-content: space-between;margin-bottom:20px;}
+        main .pro .ad{background: url(assets/bg3-4.png) no-repeat left center;padding-left:20px;font-size: 16px;line-height:16px;}
+        main .pro .date{background: url(assets/bg3-5.png) no-repeat left center;padding-left:20px;font-size: 16px;line-height:16px;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <a class="user" href=""></a>
+            <h3>热门活动</h3>
+            <a class="more" href=""></a>
+        </header>
+        <main>
+            <ul>
+                <li>
+                    <div class="st">
+                        <a href="#">
+                            <img src="assets/bg3-6.png" alt="">
+                            <i>13位</i>
+                            <em>98条</em>
+                        </a>
+                        <h3>长风海洋世界一日游</h3>
+                        <div class="pro">
+                            <span class="ad">上海市普陀区大渡河路451号</span>
+                            <span class="date">2012-04-26 13:00</span>
+                        </div>
+                    </div>    
+                </li>
+                <li>
+                    <div class="st">
+                        <a href="#">
+                            <img src="assets/bg3-6.png" alt="">
+                            <i>13位</i>
+                            <em>98条</em>
+                        </a>
+                        <h3>长风海洋世界一日游</h3>
+                        <div class="pro">
+                            <span class="ad">上海市普陀区大渡河路451号</span>
+                            <span class="date">2012-04-26 13:00</span>
+                        </div>
+                    </div>    
+                </li>
+            </ul>
+        </main>
+        <footer></footer>
+        
+    </div>
+</body>
+</html>
